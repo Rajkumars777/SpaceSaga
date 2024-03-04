@@ -1,0 +1,9 @@
+<div className="container bg-black h-screen
+     w-full  flex  justify-between">
+    <div className=' text-[600%] mt-[10%]'>
+        <h1>{"SpaceSAGA"}</h1>
+    </div>
+      <div className=" w-[100%] flex items-center bg-red-400 ">
+        <img src={Moon} alt="Descriptive alt text" className="App-logo w-[100%] h-auto  bg-yellow-300" />
+      </div>
+    </div>

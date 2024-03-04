@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.App {
+  text-align: center;
+  cursor: url(../src/images/poiter.png),auto;
+}
+.Texta-tex{
+  font-family: "Lobster", sans-serif;
+}
+.space{
+  size: 60cm;
+}
+.App{
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color:white;
+  cursor: url(../src/images/poiter.png),auto;
+}
+
+#video{
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  top:0;
+  bottom: 0;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/*.navbar {
+  margin-top: 1%;
+
+  background-color: #000000;
+  padding: 10px;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #3D3B40;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.nav-link:hover {
+  color:white;
+}
+*/
+
